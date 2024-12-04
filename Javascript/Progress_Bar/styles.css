@@ -1,0 +1,50 @@
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-container {
+  height: 2%;
+  width: 90%;
+  margin-bottom: 30px;
+  background-color: rgb(230, 229, 229);
+}
+
+.percent {
+  position: absolute;
+  left: 50%;
+  font-size: 0.8rem;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: rgb(8, 205, 8);
+  transition: width 1s ease-in-out;
+}
+
+.buttons {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.button {
+  height: 40px;
+  width: 300px;
+  margin-right: 50px;
+  background-color: rgb(2, 255, 229);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
