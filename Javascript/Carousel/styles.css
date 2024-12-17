@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image{
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.page{
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgb(226, 223, 223);;
+    background-color: rgb(226, 223, 223);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
