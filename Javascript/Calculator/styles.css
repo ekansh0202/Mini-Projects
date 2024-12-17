@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container{
+    height: 400px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.result{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+.button{
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(159, 156, 156);
+}
+
+.clear{
+    background-color: red;
+    color: white;
+}
+
+.zero{
+    width: 48%;
+}
+
+.equal{
+    width: 74%;
+}
