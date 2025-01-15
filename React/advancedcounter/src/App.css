@@ -1,0 +1,44 @@
+.App{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.result{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 12%;
+}
+
+.button{
+  height: 30px;
+  width: 70px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.content{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  margin-left: 20px;
+}
+
