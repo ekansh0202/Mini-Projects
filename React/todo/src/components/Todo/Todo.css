@@ -1,0 +1,32 @@
+.todo{
+    margin-top: 30px;
+    height: 50px;
+    width: 35%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    align-items: center; 
+}
+
+.edit, .delete {
+    color: white;
+    height: 30px;
+    width: 60px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: green;
+}
+
+.delete {
+    background-color: red;
+}
