@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.selector{
+  display: flex;
+}
+
+.input{ 
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range{
+  margin-left: 20px;
+}
+
+.container{
+  margin-top: 40px;
+}
+
+.box{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+}
