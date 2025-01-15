@@ -1,0 +1,24 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 100%;
+  width: 100px;
+  margin-left: 45%;
+}
+
+.star {
+  font-size: 3rem;            
+  font-weight: bold;   
+  color: brown;
+  cursor: pointer;         
+}
+
+.star:hover {
+  color: black;                
+}
+
+.star.filled {
+  color: black; 
+}
