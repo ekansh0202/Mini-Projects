@@ -1,0 +1,31 @@
+.card{
+    width: 90vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-button{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(180, 175, 175);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+}
