@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.input{
+  width: 250px;
+  height: 30px;
+  border: 1px solid rgb(208, 206, 206);;
+}
+
+.values{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.value{
+  font-size: 0.7rem;
+  color: rgb(187, 182, 182);
+}
+
+.progress-bar{
+  height: 8px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid rgb(208, 206, 206);
+}
+
+.progress{
+  height: 8px;
+  width: 0px;
+  border-radius: 10px;
+  border: 1px solid rgb(208, 206, 206);
+}
+
+.label{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
