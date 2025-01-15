@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>PASSWORD STRENGTH</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="App">
+      <input type="text" placeholder="Enter your password" class="input"/>
+      <div class="values">
+        <span class="value lowercase"> Lowercase </span>
+        <span class="value uppercase"> Uppercase </span>
+        <span class="value number"> Numbers </span>
+        <span class="value symbol"> Symbols </span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <label class="label">
+        Password has
+        <span class="span length">0</span> chars
+      </label>
+      <label class="label">
+        Your password is <span class="span strength">Weak</span>
+      </label>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
