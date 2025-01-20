@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.input{
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
