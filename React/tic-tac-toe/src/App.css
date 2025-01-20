@@ -1,0 +1,20 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  flex-direction: column;
+}
+
+.container{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button{
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
