@@ -1,0 +1,84 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.input{
+  height: 40px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.duration{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast{
+  height: 30px;
+  width: 300px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-container {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  gap: 10px;
+}
+
+/* Vertical stacking */
+.toast-container.top {
+  top: 16px;
+  flex-direction: column;
+}
+
+.toast-container.bottom {
+  bottom: 16px;
+  flex-direction: column-reverse;
+}
+
+/* Horizontal alignment */
+.toast-container.left {
+  left: 16px;
+  align-items: flex-start;
+}
+
+.toast-container.right {
+  right: 16px;
+  align-items: flex-end;
+}
+
+
+.normal{
+  background-color: white;
+  color: black;
+}
+
+.success{
+  background-color: green;
+  color: rgb(7, 255, 7);
+}
+
+.error{
+  background-color: red;
+  color: rgb(95, 1, 1);
+}
+
+.warning{
+  background-color: yellow;
+  color: rgb(77, 77, 2);
+}
+
+.info{
+  background-color: blue;
+  color: rgb(0, 0, 91);
+}
+
