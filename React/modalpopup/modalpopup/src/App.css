@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.inputs{
+  margin-top: 20px;
+}
+
+.button{
+  margin-top: 30px;
+}
+
+.modal{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-top: 100px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.heading{
+  font-weight: bold;
+}
+
+.content{
+  word-wrap: break-word;
+  width: 700px;
+}
+
+.modal-button, .close-button{
+  width: 50px;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
