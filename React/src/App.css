@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.search {
+  width: 300px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.item {
+  display: block;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #007bff;
+  color: white;
+}
